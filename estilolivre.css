@@ -1,0 +1,67 @@
+*{
+   margin: 0%;
+   padding: 0%; 
+}
+@font-face{
+    font-family: pokemon;
+    src: url(Pokemon\ Solid.ttf)
+    
+}
+@font-face{
+    font-family: pokemon2;
+    src: url(Pokemon\ Hollow.ttf);
+}
+h3{
+    color: blueviolet;
+}
+header{
+background-image: url(img/fundodex3.jfif);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: left center;
+position: relative;
+border-radius: 30px;
+}
+body{
+    background-image: url(img/fundo\ dexori.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.fundo{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    align-items: center;
+    
+}
+.mew2{
+
+}
+.mew3{
+    text-align: right;
+}
+.letras{
+font-size: xx-large;
+text-align: center;
+color: blue;
+text-shadow: 1px 4px 1px yellow;
+font-family: pokemon2;
+}
+.pokedex__imagem{
+width: 100px;
+height: 100px;
+
+}
+.pokedex{
+    width: 50%;
+    background-color: red;
+    margin: auto;
+    height: 100vh;
+    margin-top: 10px;
+    border-radius: 20px;
+    
+}
+.pokemons{
+    text-align: center;
+}
